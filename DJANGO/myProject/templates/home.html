@@ -1,35 +1,11 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <script src="{% static 'js/main.js' %}" defer></script>
-</head>
-<body>
-    <p>Home page</p>
-    <a href="/about">About</a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestias cum assumenda et dolore magni, autem quibusdam explicabo consectetur nihil! Quas veniam natus dicta quis cupiditate libero ex odio maxime?
-    Non excepturi quibusdam, quo veritatis expedita facere corrupti perspiciatis, soluta tempore accusantium minus placeat dolores quia ab modi quam ipsum numquam doloremque maxime ducimus illo nihil reiciendis. Accusamus, provident vel!
-    Cumque error nemo perspiciatis necessitatibus numquam officiis aperiam. Sequi possimus, sapiente tenetur libero, ex modi enim deserunt voluptas, optio rerum accusamus recusandae iste. Debitis tempore porro nisi perspiciatis odio iusto.
-    Quaerat ducimus repellendus qui repudiandae, consequatur dignissimos autem magnam sint accusamus delectus consequuntur fugiat sequi, voluptates quae veritatis animi natus maiores doloribus, placeat totam saepe? Aspernatur, aperiam nihil. Voluptate, a!
-    Iste, libero repellat. Velit tempora illum deserunt vel impedit numquam natus! Enim recusandae quasi, fugit dignissimos voluptates omnis provident dolore optio sint perferendis, non inventore debitis neque assumenda nemo quas.
-    Aperiam, deleniti quod? Est saepe aperiam deleniti, totam soluta debitis neque quos facilis impedit doloremque dolorem molestiae ipsam, tempora vitae pariatur, provident aliquid sapiente. Hic architecto numquam tempore quam repudiandae.
-    Architecto accusamus facere numquam ipsa corporis officia nostrum assumenda veritatis quisquam similique iusto, itaque error neque soluta ab quam, voluptates enim repudiandae quo repellat aliquam adipisci? Repudiandae rerum impedit eos.
-    Omnis voluptate excepturi cupiditate soluta nobis ipsum possimus in vel provident. Voluptatum nihil at dolores dolorem tenetur, placeat eveniet numquam similique laborum optio ipsum maiores nam atque assumenda magnam blanditiis.
-    Fugit ipsam dolores, quia, repellat quasi aut distinctio expedita, quos reprehenderit consectetur temporibus quas blanditiis nostrum doloremque ratione maiores cumque eius. Dolor iste quia dolorum ratione placeat excepturi quis dignissimos.
-    Molestiae fugit perspiciatis deserunt eos in aliquam aut odit veniam, incidunt necessitatibus expedita quae totam cumque aperiam nesciunt nam ducimus sequi vero earum libero? Pariatur aspernatur quaerat rem maiores minima!
-    Cupiditate hic illum error officia, laborum odio fugit dolores eius corrupti incidunt corporis iste sunt reiciendis distinctio officiis quam modi, nesciunt earum quibusdam. Necessitatibus perferendis, inventore accusantium nobis iste vero!
-    Ex, asperiores. Qui eius nostrum, corporis quos fugit veniam adipisci animi. Laboriosam ex, eum, expedita ipsum possimus repudiandae provident velit architecto quisquam blanditiis corrupti eveniet molestias repellendus quas consequuntur nihil.
-    Vitae sed aliquam fugit, laudantium nemo molestias incidunt, minus quas ea repellat, quo nam natus accusantium excepturi modi voluptate repellendus pariatur. Repudiandae ut repellendus cumque nostrum, inventore minus ullam pariatur?
-    Fugit cum soluta aspernatur, totam, fugiat neque quam ipsum eaque vitae, iure enim asperiores voluptatibus perspiciatis nemo nesciunt dolore error ea inventore animi quae aliquid ut. Quod consequuntur beatae neque.
-    Neque quasi accusantium similique obcaecati mollitia aliquam esse vero, ex numquam perferendis aperiam id ipsa maxime reprehenderit consequuntur ullam natus dolorum dicta nisi enim, a recusandae doloremque velit! Quidem, aliquam?
-    Autem est, iste, consequatur possimus sed amet nam nisi impedit dicta ullam ipsam quos harum similique vitae minus debitis nostrum recusandae at? Atque, molestiae beatae voluptatibus placeat ab fugit dolor.
-    Dolor, nihil enim ea reprehenderit unde esse? Sit suscipit libero amet fuga eveniet iusto quia. Velit, accusantium delectus! Minima eaque quisquam aut sapiente libero, odio asperiores veritatis labore commodi tenetur.
-    In eos, quis similique expedita voluptate modi? Incidunt labore odio quaerat sapiente error ab beatae asperiores eaque dolorum ullam quis odit illo sed rerum deserunt consequuntur, quos accusamus vel corrupti.
-    Quibusdam similique nemo facere quasi ut. Voluptas, quia fugiat, voluptatem perspiciatis corporis quas qui facilis pariatur maxime delectus dolorum! Voluptate qui obcaecati ducimus. Quos maxime necessitatibus nam quisquam doloribus cupiditate?
-    Fuga dicta dolore consequatur, ut pariatur non voluptate quidem laboriosam vitae quam quod officiis quo repudiandae nobis eaque minima laborum eos? Odio porro voluptas doloribus dignissimos ipsam ab repudiandae aliquam?</p>
-</body>
-</html>
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <h1>Home</h1>
+    <p>Check out my <a href="/about">About </a>page.</p>
+{% endblock %}
