@@ -8,6 +8,7 @@
 {% block content %}
         <h1>{{Post.title}}</h1>
             <p>{{Post.date}}</p>
-            <p>{{Post.body}}</p>
+            <img class="banner"
+            src="{{Post.banner.url}}" alt="{{Post.title}} Not Found">
     
 {% endblock %}

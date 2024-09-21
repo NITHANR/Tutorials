@@ -84,3 +84,11 @@ a {
 a:hover {
     opacity: .85;
 }
+
+/* Post : Page  */
+
+.banner{
+    display: block;
+    width:100%;
+    max-width: 800px;
+}
