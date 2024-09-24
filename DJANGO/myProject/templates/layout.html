@@ -14,9 +14,14 @@
 </head>
 <body>
     <nav>
-        <a href="/">🏡</a> | 
+        <a href="/">
+            <span role="img" aria-label="Home" title="Home">🏡</span>
+        </a> | 
         <a href="/about">😊</a> | 
         <a href="{% url 'posts:list'%}">📰</a> |
+        <a href="{% url 'users:register'%}">
+            <span role="img" title="User" aria-label"register">🚀</span>
+        </a> |
         <a href="#">back to top</a> 
         
     </nav>
