@@ -20,9 +20,15 @@
         <a href="/about">😊</a> | 
         <a href="{% url 'posts:list'%}">📰</a> |
         <a href="{% url 'users:register'%}">
-            <span role="img" title="User" aria-label"register">🚀</span>
+            <span role="img" title="User" aria-label="register">🚀</span>
         </a> |
-        <a href="#">back to top</a> 
+        <a href="{% url 'users:login' %} ">
+            <span role="img" aria-label="User Login" title="User login">
+                🔏
+            </span>
+        </a>
+        {% comment %} <a href="#">back to top</a>  {% endcomment %}
+
         
     </nav>
     <main>
