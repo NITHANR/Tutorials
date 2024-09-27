@@ -1,0 +1,15 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+    {{Post.title}}
+{% endblock %}
+
+{% block content %}
+        <h1>{{Post.title}}</h1>
+            <p>{{Post.date}}</p>
+            <p>Welcome</p>
+            <img class="banner"
+            src="{{Post.banner.url}}" alt="{{Post.title}} Not Found">
+    
+{% endblock %}
